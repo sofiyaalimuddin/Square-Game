@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(255, 239, 233);
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    height: 35vw;
+    width: 35vw;
+    background-color: white;
+    border: solid, black;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+@media all and (min-width: 750px){
+ .square {
+    height: 15vw;
+    width: 15vw;
+}
+}
